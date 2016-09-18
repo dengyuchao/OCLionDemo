@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5DN-gp-tA0">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--购物车-->
+        <scene sceneID="tIl-ye-AbM">
+            <objects>
+                <viewController id="68G-na-3gO" customClass="ShoppingCartViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7cg-Of-1H5"/>
+                        <viewControllerLayoutGuide type="bottom" id="oIt-oH-Wkg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Vv2-8t-05N">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="购物车" image="second" id="Sg3-CJ-TGc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mkx-e5-vW4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273" y="45"/>
+        </scene>
+        <!--商城-->
+        <scene sceneID="yap-ro-LXg">
+            <objects>
+                <viewController id="ijC-Yv-fI6" customClass="ShopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zKL-eu-AUR"/>
+                        <viewControllerLayoutGuide type="bottom" id="UCl-6l-5XS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LsI-3O-7e7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="商城" image="first" id="Ck4-Xz-E3Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="egQ-u8-409" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="273" y="-610"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EWE-75-6xL">
+            <objects>
+                <tabBarController id="5DN-gp-tA0" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LYE-zC-LAL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ijC-Yv-fI6" kind="relationship" relationship="viewControllers" id="sOv-Xq-261"/>
+                        <segue destination="68G-na-3gO" kind="relationship" relationship="viewControllers" id="E5h-HD-Avy"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kDA-zl-So0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-679" y="-283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="first" width="30" height="30"/>
+        <image name="second" width="30" height="30"/>
+    </resources>
+</document>
