@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D33675B1D8E7E0000A552ED /* LioniqFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; };
-		9D33675C1D8E7E0000A552ED /* LioniqFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9D33675D1D8E7E1100A552ED /* LioniqFrameWork.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D49141D1D8F8C7B001E8195 /* LioniqFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; };
+		9D4914201D8F8CE3001E8195 /* LioniqFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DCE19501D8D5FC0004978D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE194F1D8D5FC0004978D6 /* main.m */; };
 		9DCE19531D8D5FC0004978D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE19521D8D5FC0004978D6 /* AppDelegate.m */; };
 		9DCE19561D8D5FC0004978D6 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE19551D8D5FC0004978D6 /* ShopViewController.m */; };
@@ -39,25 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9DCE198D1D8D681F004978D6 /* Embed Frameworks */ = {
+		9D49141F1D8F8C7B001E8195 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9D33675C1D8E7E0000A552ED /* LioniqFrameWork.framework in Embed Frameworks */,
+				9D4914201D8F8CE3001E8195 /* LioniqFrameWork.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9DCE198E1D8D6827004978D6 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-				9D33675D1D8E7E1100A552ED /* LioniqFrameWork.framework in CopyFiles */,
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -89,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D33675B1D8E7E0000A552ED /* LioniqFrameWork.framework in Frameworks */,
+				9D49141D1D8F8C7B001E8195 /* LioniqFrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +174,7 @@
 				9DCE19471D8D5FC0004978D6 /* Sources */,
 				9DCE19481D8D5FC0004978D6 /* Frameworks */,
 				9DCE19491D8D5FC0004978D6 /* Resources */,
-				9DCE198D1D8D681F004978D6 /* Embed Frameworks */,
-				9DCE198E1D8D6827004978D6 /* CopyFiles */,
+				9D49141F1D8F8C7B001E8195 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

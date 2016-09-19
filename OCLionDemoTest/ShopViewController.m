@@ -8,7 +8,6 @@
 
 #import "ShopViewController.h"
 
-
 @interface ShopViewController ()
 
 @end
@@ -21,12 +20,5 @@
     [self.wk reloadShop:@"d7d831e5163fabfe70755b9a33c4e349" secret:@"53860b4e38b11647c00e0b22d03f6aa3" userId:@""];
     [self.view addSubview: self.wk];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end
