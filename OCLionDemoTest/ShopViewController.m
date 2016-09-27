@@ -17,7 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.wk = [[LIQWebview alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.wk reloadShop:@"d7d831e5163fabfe70755b9a33c4e349" secret:@"53860b4e38b11647c00e0b22d03f6aa3" userId:@""];
+    [self.wk reloadShopWithKey:@"f9da1ab153acaf9563f46022218866a2" secret:@"673feaf2e3c6986363001787dd7d3ff1" userId:@"xyz123123"];
+    
     [self.view addSubview: self.wk];
 }
 
