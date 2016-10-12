@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@import LioniqFrameWork;
+@import Lioniq;
 
 @interface ShoppingCartViewController : UIViewController
 @property(nonatomic, retain)LIQWebview * wk;

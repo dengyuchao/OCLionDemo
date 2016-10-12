@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D49141D1D8F8C7B001E8195 /* LioniqFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; };
-		9D4914201D8F8CE3001E8195 /* LioniqFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9D59D00C1DAE195D0006389D /* Lioniq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D59D00A1DAE19520006389D /* Lioniq.framework */; };
+		9D59D00D1DAE195D0006389D /* Lioniq.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9D59D00A1DAE19520006389D /* Lioniq.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9DCE19501D8D5FC0004978D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE194F1D8D5FC0004978D6 /* main.m */; };
 		9DCE19531D8D5FC0004978D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE19521D8D5FC0004978D6 /* AppDelegate.m */; };
 		9DCE19561D8D5FC0004978D6 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DCE19551D8D5FC0004978D6 /* ShopViewController.m */; };
@@ -44,7 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9D4914201D8F8CE3001E8195 /* LioniqFrameWork.framework in Embed Frameworks */,
+				9D59D00D1DAE195D0006389D /* Lioniq.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9D59D00A1DAE19520006389D /* Lioniq.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lioniq.framework; sourceTree = "<group>"; };
 		9DCE194B1D8D5FC0004978D6 /* OCLionDemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLionDemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE194F1D8D5FC0004978D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DCE19511D8D5FC0004978D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,7 +71,6 @@
 		9DCE19751D8D5FC0004978D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DCE19901D8D6E6A004978D6 /* ShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingCartViewController.h; sourceTree = "<group>"; };
 		9DCE19911D8D6E88004978D6 /* ShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingCartViewController.m; sourceTree = "<group>"; };
-		9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LioniqFrameWork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D49141D1D8F8C7B001E8195 /* LioniqFrameWork.framework in Frameworks */,
+				9D59D00C1DAE195D0006389D /* Lioniq.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +102,7 @@
 		9DCE19421D8D5FC0004978D6 = {
 			isa = PBXGroup;
 			children = (
-				9DE90DCC1D8E7DB00023CF5C /* LioniqFrameWork.framework */,
+				9D59D00A1DAE19520006389D /* Lioniq.framework */,
 				9DCE194D1D8D5FC0004978D6 /* OCLionDemoTest */,
 				9DCE19671D8D5FC0004978D6 /* OCLionDemoTestTests */,
 				9DCE19721D8D5FC0004978D6 /* OCLionDemoTestUITests */,

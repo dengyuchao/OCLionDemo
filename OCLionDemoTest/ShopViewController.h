@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-@import LioniqFrameWork;
+@import Lioniq;
 
 @interface ShopViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *webviewPlaceholder;
 
 @property(nonatomic, retain)LIQWebview * wk;
 @end

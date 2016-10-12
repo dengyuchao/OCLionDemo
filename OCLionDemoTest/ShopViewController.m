@@ -8,7 +8,7 @@
 
 #import "ShopViewController.h"
 
-@interface ShopViewController ()
+@interface ShopViewController () <LIQWebviewDelegate>
 
 @end
 
@@ -16,10 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.wk = [[LIQWebview alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.wk reloadShopWithKey:@"f9da1ab153acaf9563f46022218866a2" secret:@"673feaf2e3c6986363001787dd7d3ff1" userId:@"xyz123123"];
+    self.wk = [[LIQWebview alloc] initWithFrame:[self webviewPlaceholder].frame];
+    [self.wk reloadShop:@"15ef0668e2f7d3234c1706997156c8a2" secret:@"2ab6633650437c8bb29ee5bcdf072034" userId:@"xyz123123"];
     
+    self.wk.delegate = self;
     [self.view addSubview: self.wk];
+}
+
+- (void)webviewDidMain {
+    
+}
+
+- (void)webviewDidItemDetail {
+}
+
+- (void)webviewDidAddToCart:(NSDictionary<NSString *,id> *)cartItemData {
 }
 
 @end
